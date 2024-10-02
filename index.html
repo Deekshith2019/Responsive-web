@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T20 world cup</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            
+            <img src="images/logo.png" alt="T20 logo">
+        </div>
+            <div class="background">
+            
+          
+            </div>
+            <div class="heading">
+            <h1 id="head">
+            SUPER FOUR 
+            </h1>
+
+            
+            <p>The top two teams from group a and group b are into super 4 .The top 2 teams in super 4 will battle for the ultimate t20 world cup on sunday. dont miss the action live at 7.00pm every day </p>
+            <button>Watch Matches</button>
+            </div>
+            <div class="image">
+                <img src="images/indian-team.png" id="myimage">
+            </div>
+                <div class="navbar">
+                    <ul>
+                    <li>Home</li>
+                    <li>Teams</li>
+                    <li>schedule</li>
+                    <li>points table</li>
+                    </ul>
+                    </div>
+                    <div class="empty">
+
+                    </div>
+            </div>
+            <div class="empty">
+            </div>
+            <div class="list">
+            <ol>
+                <li onclick="myFun('images/eng-team.png', 'white','England Cricket Team', 'images/eng-team-logo.png')">Eng</li>
+                <li onclick="myFun('images/aus-team.png', 'yellow','Australia Cricket Team', 'images/aus-logo.png')">AUS</li>
+                <li onclick="myFun('images/indian-team.png', 'blue','India Cricket Team', 'images/india-team-logo.png')">IND</li>
+                <li onclick="myFun('images/ban-team.png', 'green', 'Bangladesh Cricket Team', 'images/ban-logo.png')">BAN</li>
+            </ol>
+            </div>
+        </div>
+            <script>
+                function myFun(image ,color, heading, logo){
+                    document.getElementById('myimage').src=image;
+                    document.querySelector('.empty').style.background = Color;
+                    document.getElementById('head').innerHTML= head;
+                    document.getElementById('logobg').src=logo;
+                }
+          </script>
+</body>
+</html>
